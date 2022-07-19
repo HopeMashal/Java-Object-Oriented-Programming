@@ -10,3 +10,13 @@ public class lesson_1 {
 }
 
 /*_______________________________*/
+
+//! What is OOP?
+
+//? OOP is a programming paradigm based on the concept of "objects"
+
+//? Programming paradigm is a style of programming, a way of thinking about software construction.
+
+//? Programming paradigm doesn't refer to a specific language but rather to a way to build a program or a methodology to apply.
+
+/*_______________________________*/
