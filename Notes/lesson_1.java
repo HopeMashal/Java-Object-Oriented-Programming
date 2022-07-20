@@ -37,4 +37,17 @@ public class lesson_1 {
 
 //? Object is a thing (Tangible - Intangible)
 
+//? Example: Objects is student housing management program
+// TODO: Student --> name,address, phone number, gender, ...etc
+// TODO: Room --> area, floor number, view, ...etc
+// TODO: Building --> building number, number of floors, for whom (student,teacher,...etc)
+// TODO: Furniture --> id, price, ...etc
+
+//? Example: Objects in College Management Program
+// TODO: Student --> name,address, phone number, gender, ...etc
+// TODO: Course --> material, books, ...etc
+// TODO: Teacher --> name,address, phone number, gender, certificate, majorm, ...etc
+// TODO: Class --> building, room, ...etc
+// TODO: Grading Report --> Quizes, HomeWork, ...etc
+
 /*_______________________________*/
