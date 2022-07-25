@@ -51,3 +51,10 @@ public class lesson_1 {
 // TODO: Grading Report --> Quizes, HomeWork, ...etc
 
 /*_______________________________*/
+
+//! Any Object contains:
+
+//? 1- Data --> Such as name,id,price, ...etc
+//? 2- Operations() --> Such as getName(),getID(),setPrice(), ...etc
+
+/*_______________________________*/
