@@ -1,3 +1,6 @@
+/*_______________________________*/
+//! Rectangle Class!! 
+
 package Notes.lesson_2;
 
 public class Rectangle {
@@ -29,3 +32,5 @@ public class Rectangle {
     return this.width*this.length;
   }
 }
+
+/*_______________________________*/

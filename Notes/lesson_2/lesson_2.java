@@ -1,3 +1,6 @@
+/*_______________________________*/
+//! Class!! 
+
 package Notes.lesson_2;
 
 public class lesson_2 {
@@ -13,3 +16,5 @@ public class lesson_2 {
     System.out.println(rectangle_1.getArea());
   }
 }
+
+/*_______________________________*/
