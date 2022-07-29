@@ -58,3 +58,11 @@ public class lesson_1 {
 //? 2- Operations() --> Such as getName(),getID(),setPrice(), ...etc
 
 /*_______________________________*/
+
+//! Class:
+
+//? Class is blue print ==> contains Data and Operations
+//? نموذج للداتا والفانكشين
+//? لما اضيف شي او اعدل شي على الكلاس كل الاوبجيكت يلي انعملت من هاد الكلاس راح تاخد التعديل
+
+/*_______________________________*/
