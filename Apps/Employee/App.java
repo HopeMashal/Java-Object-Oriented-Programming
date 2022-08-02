@@ -7,5 +7,8 @@ public class App {
 
     Employee employee_2 = new Employee(15,"Yuki",1200.0,10.1,"Engineering",true);
     employee_2.PrintEmpData();
+    System.out.println("Before Set Salary!!");
+    employee_2.setSalary(5000, 200);
+    employee_2.PrintEmpData();
   }
 }
