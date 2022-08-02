@@ -4,7 +4,15 @@
 package Notes.lesson_3;
 
 public class lesson_3 {
-  
+  public static void main(String[] args) {
+    Rectangle r1 = new Rectangle();
+    System.out.println(r1.getLength());
+    System.out.println(r1.getWidth());
+    r1.setLength(20);
+    r1.setWidth(13);
+    System.out.println(r1.getLength());
+    System.out.println(r1.getWidth());
+  }
 }
 
 /*_______________________________*/
