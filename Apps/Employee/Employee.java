@@ -6,6 +6,16 @@ public class Employee {
   double Salary, Bonus;
   boolean Resident;
 
+  public Employee(int id,String name){
+    Emp_id=id;
+    Ename=name;
+  }
+
+  public Employee(int id,String name, boolean r){
+    this (id,name);
+    Resident=r;
+  }
+
   public void PrintEmpData(){
     System.out.println("Employee's ID is : "+Emp_id);
     System.out.println("Employee's Name is : "+Ename);
