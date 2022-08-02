@@ -16,6 +16,13 @@ public class Employee {
     Resident=r;
   }
 
+  public Employee(int id,String name, double salary, double bonus, String depart, boolean r){
+    this (id,name,r);
+    Salary=salary;
+    Bonus = bonus;
+    Depart=depart;
+  }
+
   public void PrintEmpData(){
     System.out.println("Employee's ID is : "+Emp_id);
     System.out.println("Employee's Name is : "+Ename);
