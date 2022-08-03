@@ -3,8 +3,15 @@
 
 package Notes.lesson_5;
 
+import Notes.lesson_3.Rectangle;
+
 public class lesson_5 {
-  
+  public static void main(String[] args) {
+    Rectangle room = new Rectangle();
+    double roomLength = 50;
+    room.setLength(roomLength);
+    System.out.println(room.getLength());
+  }
 }
 
 /*_______________________________*/
