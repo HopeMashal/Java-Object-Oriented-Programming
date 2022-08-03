@@ -10,6 +10,12 @@ public class lesson_4 {
     Car car_3 = new Car("KIA", 2020);
     Car car_4 = new Car("KIA", 2023);
     System.out.println(Car.getNoOfObjects());
+    int sum = Calculator.add(3, 2);
+    int sub = Calculator.sub(3, 2);
+    int mult = Calculator.mult(3, 2);
+    System.out.println(sum);
+    System.out.println(sub);
+    System.out.println(mult);
   }
 }
 
