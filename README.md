@@ -7,6 +7,7 @@ Java Basic Notes and Some Apps Using Object Oriented Programming
 * Class [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_2/lesson_2.java)
 * Constructors and Constructor Overloading [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_3/lesson_3.java)
 * Static Methods and Fields [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_4/lesson_4.java)
+* Passing an object to a method [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_5/lesson_5.java)
 
 
 ## Apps
