@@ -2,8 +2,8 @@ package Notes.lesson_7;
 
 public class Person {
   private String Name,Address,Nationality;
-  private int Age;
-  public Person(String name, int age, String address, String nationality){
+  private double Age;
+  public Person(String name, double age, String address, String nationality){
     Name=name;
     Age=age;
     Address=address;
@@ -33,10 +33,10 @@ public class Person {
   public void setNationality(String nationality) {
     Nationality = nationality;
   }
-  public int getAge() {
+  public double getAge() {
     return Age;
   }
-  public void setAge(int age) {
+  public void setAge(double age) {
     Age = age;
   }
   

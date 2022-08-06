@@ -3,11 +3,14 @@ package Notes.lesson_7;
 public class Employee extends Person {
   private String Rank,Job;
   private double Salary;
-  public Employee(String name, int age, String address, String nationality,double salary,String rank, String job){
+  public Employee(String name, double age, String address, String nationality,double salary,String rank, String job){
     super(name,age,address,nationality);
     Salary=salary;
     Rank=rank;
     Job=job;
+  }
+  public Employee(){
+    
   }
   public void printInfo(){
     super.printInfo();
