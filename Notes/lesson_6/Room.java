@@ -1,3 +1,6 @@
+/*_______________________________*/
+//! Room Class!! 
+
 package Notes.lesson_6;
 
 public class Room {
@@ -35,3 +38,5 @@ public class Room {
   }
   
 }
+
+/*_______________________________*/
