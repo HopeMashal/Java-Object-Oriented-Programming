@@ -3,16 +3,21 @@
 
 package Notes.lesson_5;
 
-import Notes.lesson_3.Rectangle;
-
 public class lesson_5 {
   public static void main(String[] args) {
-    Rectangle room = new Rectangle();
+    Rectangle room = new Rectangle(32,33);
     double roomLength = 50;
     room.setLength(roomLength);
     System.out.println(room.getLength());
+    room.modifyObject(room);
+    System.out.println(room.getLength());
+    Rectangle room1 = new Rectangle(32,54);
+    Rectangle r3 = new Rectangle();
+    Rectangle r4 = r3.add(room1);
+    System.out.println(r4.getLength());
+    System.out.println(r4.getWidth());
   }
-} /* 11-7:10 */
+}
 
 /*_______________________________*/
 
