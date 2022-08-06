@@ -16,3 +16,12 @@ public class lesson_7 {
 }
 
 /*_______________________________*/
+
+//! Inheritance and Constructors
+
+//? Constructors are not inherited
+//? When a subclass is instantiated, the superclass default constructor is executed first.
+//? The super keyword refers to an object's superclass
+//? The superclass constructor can be explicitly called from the subclass by using the super keyword
+
+/*_______________________________*/

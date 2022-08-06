@@ -1,3 +1,6 @@
+/*_______________________________*/
+//! Employee Class!! 
+
 package Notes.lesson_7;
 
 public class Employee extends Person {
@@ -36,3 +39,5 @@ public class Employee extends Person {
   }
   
 }
+
+/*_______________________________*/

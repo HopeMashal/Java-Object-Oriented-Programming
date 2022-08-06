@@ -10,6 +10,7 @@ Java Basic Notes and Some Apps Using Object Oriented Programming
 * Passing an object to a method [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_5/lesson_5.java)
 * Comparing and Copying Objects [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_6/lesson_6.java)
 * Inheritance and Polymorphism [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_7/lesson_7.java)
+* Inheritance and Method Overriding [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_8/lesson_8.java) 
 
 
 ## Apps

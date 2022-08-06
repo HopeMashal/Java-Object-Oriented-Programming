@@ -1,3 +1,6 @@
+/*_______________________________*/
+//! Hourly Employee Class!! 
+
 package Notes.lesson_7;
 
 public class HourlyEmployee extends Employee {
@@ -25,3 +28,5 @@ public class HourlyEmployee extends Employee {
   }
   
 }
+
+/*_______________________________*/

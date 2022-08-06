@@ -1,3 +1,6 @@
+/*_______________________________*/
+//! Person Class!! 
+
 package Notes.lesson_7;
 
 public class Person {
@@ -41,3 +44,5 @@ public class Person {
   }
   
 }
+
+/*_______________________________*/

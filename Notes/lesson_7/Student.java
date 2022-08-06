@@ -1,3 +1,6 @@
+/*_______________________________*/
+//! Student Class!! 
+
 package Notes.lesson_7;
 
 public class Student extends Person {
@@ -34,3 +37,5 @@ public class Student extends Person {
   }
   
 }
+
+/*_______________________________*/
