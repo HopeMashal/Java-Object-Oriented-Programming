@@ -9,8 +9,11 @@ public class Person {
     Address=address;
     Nationality=nationality;
   }
+  public Person(){
+    
+  }
   public void printInfo(){
-    System.out.println("This person's name is "+Name+". He/She is "+Age+" years old. His/her address is "+Address+" and his/her nationality is "+Nationality);
+    System.out.println("This person's name is "+Name+". This person's age is "+Age+" years old. This person's address is "+Address+" and this person's nationality is "+Nationality);
   }
   public String getName() {
     return Name;
