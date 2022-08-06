@@ -1,3 +1,6 @@
+/*_______________________________*/
+//! Best Seller Class!! 
+
 package Apps.LibraryTask;
 
 public class BestSeller extends Book {
@@ -39,3 +42,5 @@ public class BestSeller extends Book {
     Book_WorldCopies = book_WorldCopies;
   }
 }
+
+/*_______________________________*/
