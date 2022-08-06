@@ -12,7 +12,7 @@ public class lesson_5 {
     room.setLength(roomLength);
     System.out.println(room.getLength());
   }
-}
+} /* 11-7:10 */
 
 /*_______________________________*/
 
