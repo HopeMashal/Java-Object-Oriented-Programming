@@ -5,7 +5,8 @@ package Notes.lesson_10;
 
 public class lesson_10 {
   public static void main(String[] args) {
-    
+    SalariedEmployee em1=new SalariedEmployee("Yuki", 23, "Jerusalem", "Palestinian", 3020, "Team Leader", "Developer", 120, 30);
+    System.out.println(em1.getSalary());
   }
 }
 
