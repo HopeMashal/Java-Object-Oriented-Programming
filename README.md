@@ -11,6 +11,12 @@ Java Basic Notes and Some Apps Using Object Oriented Programming
 * Comparing and Copying Objects [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_6/lesson_6.java)
 * Inheritance and Polymorphism [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_7/lesson_7.java)
 * Inheritance and Method Overriding [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_8/lesson_8.java) 
+* Final Methods and Protected Members [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_9/lesson_9.java) 
+* Abstract Class and Abstract Method [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_10/lesson_10.java) 
+* Interfaces [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_11/lesson_11.java) 
+* Enumerated Types [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_12/lesson_12.java) 
+* Exception Handling [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_13/lesson_13.java) 
+* ArrayList Class [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Notes/lesson_14/lesson_14.java) 
 
 
 ## Apps

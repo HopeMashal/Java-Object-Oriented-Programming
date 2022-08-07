@@ -11,6 +11,7 @@ public class lesson_8 {
   public static void main(String[] args) { 
     SalariedEmployee se1 = new SalariedEmployee("Moshi", 27, "Jerusalem", "Palestinian", 3000, "Manager", "Engineer", 400, 50);
     System.out.println(se1.getSalary());
+    se1.printInfo(); 
   }
 }
 
