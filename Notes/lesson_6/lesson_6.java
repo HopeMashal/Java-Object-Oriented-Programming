@@ -18,6 +18,9 @@ public class lesson_6 {
     Room r4 = new Room(r1);
     System.out.println(r4.getLength());
     System.out.println(r4.getWidth());
+    r1.setLength(120);
+    System.out.println(r4.getLength());
+    System.out.println(r1.getLength());
   }
 }
 

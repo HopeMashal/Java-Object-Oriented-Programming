@@ -10,8 +10,9 @@ public class lesson_7 {
     System.out.println(std1.getName());
     Employee empl1= new Employee("Yuki", 26, "Yafo", "Palestinian", 2000, "team leader", "developer");
     empl1.printInfo();
-    Employee empl2 = new SalariedEmployee("Akira", 22, "Tokyo", "Japanese", 4000, "leader", "Software", 200, "Full time");
+    Employee empl2 = new SalariedEmployee("Akira", 22, "Tokyo", "Japanese", 4000, "leader", "Software", 200, 300);
     empl2.printInfo();
+    System.out.println(empl2.getSalary());
   }
 }
 
