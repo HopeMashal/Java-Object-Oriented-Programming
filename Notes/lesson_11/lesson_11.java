@@ -9,6 +9,10 @@ public class lesson_11 {
     obj1.getRetailPrice();
     RetailItem r1 = new compactDisc();
     r1.getRetailPrice();
+    Displayable r = new compactDisc();
+    r.display();
+    compactDisc CD = new compactDisc("Novel", "Agatha", 230);
+    CD.display();
   }
 }
 
@@ -47,5 +51,20 @@ public class lesson_11 {
 /* 
  * public class MyClass implements Interface1, Interface2, Interface3
  */
+
+/*_______________________________*/
+
+//! Fields in Interfaces
+
+//? An interfaces can contain field declarations: all fields in an interface are treated ad final and static
+//? Because they automatically become final, you must provide an initialization value.
+/* 
+ * public interface Doable{
+ * int Field1=1, Field2=2;
+ * (Method headers)
+ * }
+ */
+//? In this interface, Field1 and Field2 are final static int variables
+//? Any class that implements this interface has access to these variables
 
 /*_______________________________*/

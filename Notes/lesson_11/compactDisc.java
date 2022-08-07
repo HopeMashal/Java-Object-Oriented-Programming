@@ -1,6 +1,6 @@
 package Notes.lesson_11;
 
-public class compactDisc implements RetailItem {
+public class compactDisc implements RetailItem, Displayable {
   private String title, artist;
   private double retailPrice;
 
@@ -15,6 +15,11 @@ public class compactDisc implements RetailItem {
 
   public double getRetailPrice(){
     return retailPrice;
+  }
+
+  @Override
+  public void display() {
+    System.out.println("Store = "+storeName+". Title = "+title+". Price = "+retailPrice+". Artist = "+artist);
   }
 
   public String getTitle() {
