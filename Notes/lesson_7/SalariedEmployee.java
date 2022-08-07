@@ -14,6 +14,7 @@ public class SalariedEmployee extends Employee {
     super.printInfo();
     System.out.println("The employee's bonus is "+Bonus+". the employee's deductions are "+Deductions);
   }
+  @Override
   public double getSalary() {
     double Salary = super.getSalary();
     return Salary + Bonus-Deductions;

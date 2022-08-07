@@ -14,6 +14,10 @@ public class HourlyEmployee extends Employee {
     super.printInfo();
     System.out.println("The employee's working hours is "+Working_Hours+". the employee's hours rate is "+Hours_Rate);
   }
+  @Override
+  public double getSalary() {
+    return Working_Hours*Hours_Rate;
+  }
   public double getWorking_Hours() {
     return Working_Hours;
   }

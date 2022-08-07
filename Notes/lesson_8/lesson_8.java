@@ -1,11 +1,16 @@
 /*_______________________________*/
 //! Inheritance and Method Overriding!! 
 
+//? I used lesson_7 classes
+
 package Notes.lesson_8;
+
+import Notes.lesson_7.SalariedEmployee;
 
 public class lesson_8 {
   public static void main(String[] args) { 
-    
+    SalariedEmployee se1 = new SalariedEmployee("Moshi", 27, "Jerusalem", "Palestinian", 3000, "Manager", "Engineer", 400, 50);
+    System.out.println(se1.getSalary());
   }
 }
 
