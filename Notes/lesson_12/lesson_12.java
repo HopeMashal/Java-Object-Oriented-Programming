@@ -5,7 +5,12 @@ package Notes.lesson_12;
 
 public class lesson_12 {
   public static void main(String[] args) {
-    
+    Course c1 = Course.DataBase;
+    Course c2 = Course.Math;
+    System.out.println(c1.toString());
+    System.out.println(c1.ordinal());
+    System.out.println(c1.compareTo(c2));
+    System.out.println(c1.equals(c2));
   }
 }
 
@@ -39,7 +44,7 @@ public class lesson_12 {
 //! Enumerated Types-Methods:
 
 //? toString - return name of calling constant
-//? ordinal - returns the zero-based position of the constant in the enum. For example the ordinal for Day.Wednesday is 4
+//? ordinal - returns the zero-based position of the constant in the enum. For example the ordinal for Day.Wednesday is 3
 //? equals - accepts an object as an argument and returns true if the argument is equal to the calling enum constant
 //? compareTo - accepts an object as an argument and returns a negative integer if the calling constant's ordinal < than the argument's ordinal, a positive integer if the calling constant's ordinal > than the argument's ordinal and zero if the calling constant's ordinal == the arguments ordinal
 
