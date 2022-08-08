@@ -49,4 +49,16 @@ public class lesson_14 {
 //? The ArrayList class's remove method removes designated item from ArrayList
   //* nameList.remove(1); --> This statement removes the second item
 
+//? The ArrayList class's add method with one argument adds new items to the end of the ArrayList
+//? To insert items at a location of choice, use the add method with two arguments
+  //* nameList.add(1,"Mary"); --> This statement inserts the String "Mary" at index 1
+
+//? To replace an existing item, use the set method:
+  //* nameList.set(1,"Akira"); --> This statement replaces "Mary" with "Akira"
+
+//? An ArrayList has a capacity, which is the number of items it can hold without increasing its size.
+//? The default capacity of an ArrayList is 10 item
+//? To designate a different capacity, use a parameterized constructor:
+  //* ArrayList<String> list = new ArrayList<String>(100);
+
 /*_______________________________*/
