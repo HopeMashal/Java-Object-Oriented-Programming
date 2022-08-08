@@ -42,4 +42,11 @@ public class lesson_14 {
 //? To access items in an ArrayList, use the get method:
   //* nameList.get(1);
 
+//? The ArrayList class's toString method returns a string representing all ArrayList
+  //* System.out.println(ArrayList);
+  //* This statement yields: [Hope,Yuki]
+
+//? The ArrayList class's remove method removes designated item from ArrayList
+  //* nameList.remove(1); --> This statement removes the second item
+
 /*_______________________________*/
