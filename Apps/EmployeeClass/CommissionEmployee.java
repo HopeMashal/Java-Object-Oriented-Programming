@@ -43,12 +43,13 @@ public class CommissionEmployee extends Employee implements Displayable {
     // TODO Auto-generated method stub
     System.out.println(super.toString());
     System.out.println(toString());
+    DisplayEarning();
   }
 
   @Override
   public void DisplayEarning() {
     // TODO Auto-generated method stub
-    System.out.println(Earning());
+    System.out.println("Earning = "+Earning());
   }
 
   @Override
