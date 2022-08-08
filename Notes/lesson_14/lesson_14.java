@@ -3,9 +3,34 @@
 
 package Notes.lesson_14;
 
+import java.util.*;
+
 public class lesson_14 {
   public static void main(String[] args) {
-    
+    ArrayList<String> list= new ArrayList<String>();
+
+    list.add("Amal");
+    list.add("Hope");
+    list.add("Akira");
+    list.add("Yuki");
+
+    System.out.println("Array list size is: "+list.size());
+
+    System.out.println("Array list elements are: "+list);
+
+    System.out.println("The second element is: "+list.get(1));
+
+    list.add(2, "Toti");
+
+    System.out.println("Array list elements are: "+list);
+
+    list.set(2, "Medo");
+
+    System.out.println("Array list elements are: "+list);
+
+    list.remove(2);
+
+    System.out.println("Array list elements are: "+list);
   }
 }
 
