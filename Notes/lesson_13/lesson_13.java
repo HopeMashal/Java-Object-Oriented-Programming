@@ -5,10 +5,14 @@ package Notes.lesson_13;
 
 public class lesson_13 {
   public static void main(String[] args) {
-    int x=10,y=10;
-    System.out.println(x/y);
-    y=0;
-    System.out.println(x/y);
+    try {
+      int x=10,y=0;
+      System.out.println(x/y);
+    } catch (Exception e) {
+      //TODO: handle exception
+      System.out.println("Error!! Division By Zero not Allowed");
+    }
+    System.out.println("The Program Continues :)");
   }
 }
 
@@ -26,5 +30,47 @@ public class lesson_13 {
  * int x=10,y=10;
  * System.out.println(x/y);
  */
+
+//? To handle an exception, you use a try statement
+/* 
+ * try{
+ * (try block statement)
+ * }
+ * catch (ExceptionType ParameterName){
+ * (catch block statement)
+ * }
+ */
+//? First the keyword try indicates a block of code will be attempted.
+
+//? This code is designed to handle a FileNotFoundException if it is thrown
+/* 
+ * try{
+ * File file = new File ("MyFile.txt");
+ * Scanner inputFile= new Scanner(file);
+ * }
+ * catch (FileNotFoundException e){
+ * System.out.println("File not found");
+ * }
+ */
+//? The Java Virtual Machine searches for a catch clause that can deal with exception
+
+/*_______________________________*/
+
+//! Exception Classes
+
+//? An exception handler is a section of code that gracefully responds to exceptions
+//? An exception is an object
+//? Exception objects are created from classes in the Java API hierarchy of exception classes
+//? All of the exception classes in the hierarchy are derived from the Throwable class
+//? Error and Exception are derived from the Throwable class
+
+/*_______________________________*/
+
+//! Handling Multiple Exceptions
+
+//? The code in the try block may be capable of throwing more than one type of exception
+//? A catch clause needs to be written for each type of exception that could potentially be thrown
+//? The JVM will run the first compatible catch clause found
+//? The catch clauses must be listed from most specific to most general
 
 /*_______________________________*/
