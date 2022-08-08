@@ -20,3 +20,12 @@ public class lesson_14 {
 //? Requires: import java.util.ArrayList;
 
 /*_______________________________*/
+
+//! Creating an ArrayList
+
+//? ArrayList<String> nameList = new ArrayList<String>();
+//? Notice the word String written inside angled brackets <>
+//? This specifies that the ArrayList can hold String objects
+//? If we try to store any other type of object in this ArrayList, an error will occur
+
+/*_______________________________*/
