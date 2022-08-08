@@ -29,3 +29,17 @@ public class lesson_14 {
 //? If we try to store any other type of object in this ArrayList, an error will occur
 
 /*_______________________________*/
+
+//! Using an ArrayList
+
+//? To populate the ArrayList, use the add method:
+  //* nameList.add("Hope");
+  //* nameList.add("Yuki");
+
+//? To get the current size, call the size method:
+  //* nameList.size();
+
+//? To access items in an ArrayList, use the get method:
+  //* nameList.get(1);
+
+/*_______________________________*/
