@@ -32,7 +32,8 @@ public class BasePlusCommissionEmployee extends CommissionEmployee{
   @Override
   public void DisplayAllDetails() {
     // TODO Auto-generated method stub
-    super.DisplayAllDetails();
+    System.out.println("<<<<<<<<<<<<<<<Base Plus Commission Employee Details>>>>>>>>>>>>>>>");
+    super.CEToString();
     System.out.println(toString());
     DisplayEarning();
   }

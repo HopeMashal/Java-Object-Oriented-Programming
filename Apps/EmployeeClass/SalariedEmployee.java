@@ -50,6 +50,7 @@ public class SalariedEmployee extends Employee implements Displayable {
   @Override
   public void DisplayAllDetails() {
     // TODO Auto-generated method stub
+    System.out.println("<<<<<<<<<<<<<<<Salaried Employee Details>>>>>>>>>>>>>>>");
     System.out.println(super.toString());
     System.out.println(toString());
     DisplayEarning();

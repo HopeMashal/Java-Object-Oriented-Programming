@@ -41,6 +41,7 @@ public class HourlyEmployee extends Employee implements Displayable {
   @Override
   public void DisplayAllDetails() {
     // TODO Auto-generated method stub
+    System.out.println("<<<<<<<<<<<<<<<Hourly Employee Details>>>>>>>>>>>>>>>");
     System.out.println(super.toString());
     System.out.println(toString());
     DisplayEarning();

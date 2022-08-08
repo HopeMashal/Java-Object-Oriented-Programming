@@ -62,9 +62,6 @@ public class Department {
       if (EmployeeList.get(i) instanceof CommissionEmployee){
         ((CommissionEmployee)EmployeeList.get(i)).DisplayAllDetails();
       }
-      if (EmployeeList.get(i) instanceof BasePlusCommissionEmployee){
-        ((BasePlusCommissionEmployee)EmployeeList.get(i)).DisplayAllDetails();
-      }
     }
   }
 }

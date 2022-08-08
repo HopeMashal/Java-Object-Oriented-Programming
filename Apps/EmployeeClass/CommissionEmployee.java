@@ -41,6 +41,7 @@ public class CommissionEmployee extends Employee implements Displayable {
   @Override
   public void DisplayAllDetails() {
     // TODO Auto-generated method stub
+    System.out.println("<<<<<<<<<<<<<<<Commission Employee Details>>>>>>>>>>>>>>>");
     System.out.println(super.toString());
     System.out.println(toString());
     DisplayEarning();
@@ -57,6 +58,10 @@ public class CommissionEmployee extends Employee implements Displayable {
     return "CommissionEmployee [CommissionRate=" + CommissionRate + ", GrossSales=" + GrossSales + "]";
   }
 
+  public void CEToString(){
+    System.out.println(super.toString());
+    System.out.println("CommissionEmployee [CommissionRate=" + CommissionRate + ", GrossSales=" + GrossSales + "]");
+  }
 }
 
 /*_______________________________*/

@@ -22,6 +22,12 @@ public class EmployeeClass {
     BasePlusCommissionEmployee be = new BasePlusCommissionEmployee("Akira", "Tokyo", 2, GENDER.Male, 230, 10, 5);
 
     d1.addEmployee(be);
+
+    System.out.println(d1.getEmployeeCount());
+
+    d1.PrintBasicData();
+    d1.PrintAllDetails();
+
   }
 }
 
