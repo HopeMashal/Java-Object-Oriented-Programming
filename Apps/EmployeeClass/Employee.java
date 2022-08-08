@@ -53,6 +53,11 @@ public abstract class Employee {
 
   public abstract double Earning();
 
+  @Override
+  public String toString() {
+    return "Employee [Address=" + Address + ", Gender=" + Gender + ", Name=" + Name + ", SSN=" + SSN + "]";
+  }
+
 }
 
 /*_______________________________*/
