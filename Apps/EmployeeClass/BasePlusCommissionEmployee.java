@@ -3,7 +3,7 @@
 
 package Apps.EmployeeClass;
 
-public class BasePlusCommissionEmployee {
+public class BasePlusCommissionEmployee extends CommissionEmployee{
   
 }
 

@@ -4,7 +4,7 @@
 package Apps.EmployeeClass;
 
 public class SalariedEmployee extends Employee implements Displayable {
-  double Salary,Bonus,Deductions;
+  private double Salary,Bonus,Deductions;
 
   public SalariedEmployee() {
   }
