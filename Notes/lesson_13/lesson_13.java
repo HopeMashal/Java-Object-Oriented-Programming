@@ -27,6 +27,8 @@ public class lesson_13 {
 
       System.out.println(z/o);
 
+      input.close();
+
     } catch (ArithmeticException e) {
       //TODO: handle exception
       System.out.println("Error!! Division By Zero not Allowed");
