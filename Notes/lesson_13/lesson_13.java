@@ -35,8 +35,9 @@ public class lesson_13 {
       System.out.println("Error!!! Please Enter Numeric values!");
     } catch (Exception e) {
       //TODO: handle exception
-      System.out.println("Error!!!");
+      System.out.println("Error!!! "+e.getMessage());
     }
+
   }
 }
 
@@ -96,5 +97,20 @@ public class lesson_13 {
 //? A catch clause needs to be written for each type of exception that could potentially be thrown
 //? The JVM will run the first compatible catch clause found
 //? The catch clauses must be listed from most specific to most general
+
+/*_______________________________*/
+
+//! Polymorphic References To Exceptions
+
+/* 
+ * try{
+ * number = Integer.parseInt(str);
+ * }
+ * catch (Exception e){
+ * System.out.println("The following error occurred: "+e.getMessage());}
+ */
+
+//? The Integer class's parseInt method throws a NumberFormatException object
+//? The NumberFormatException class is derived from the Exception class
 
 /*_______________________________*/
