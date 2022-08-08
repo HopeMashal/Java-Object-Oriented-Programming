@@ -1,7 +1,8 @@
 /*_______________________________*/
 //! Exception Handling!! 
-
 package Notes.lesson_13;
+
+import java.util.*;
 
 public class lesson_13 {
   public static void main(String[] args) {
@@ -13,6 +14,29 @@ public class lesson_13 {
       System.out.println("Error!! Division By Zero not Allowed");
     }
     System.out.println("The Program Continues :)");
+
+    try {
+      int z,o;
+      Scanner input = new Scanner(System.in);
+
+      System.out.print("Enter z value: ");
+      z = input.nextInt();
+
+      System.out.print("Enter o value: ");
+      o = input.nextInt();
+
+      System.out.println(z/o);
+
+    } catch (ArithmeticException e) {
+      //TODO: handle exception
+      System.out.println("Error!! Division By Zero not Allowed");
+    } catch (InputMismatchException e) {
+      //TODO: handle exception
+      System.out.println("Error!!! Please Enter Numeric values!");
+    } catch (Exception e) {
+      //TODO: handle exception
+      System.out.println("Error!!!");
+    }
   }
 }
 
