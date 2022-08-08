@@ -52,6 +52,7 @@ public class Department {
 
   public void PrintAllDetails(){
     for(int i=0;i<EmployeeList.size();i++){
+      // Convert element from Employee to SalariedEmployee/HourlyEmployee/CommissionEmployee
       if (EmployeeList.get(i) instanceof SalariedEmployee){
         ((SalariedEmployee)EmployeeList.get(i)).DisplayAllDetails();
       }
@@ -60,6 +61,9 @@ public class Department {
       }
       if (EmployeeList.get(i) instanceof CommissionEmployee){
         ((CommissionEmployee)EmployeeList.get(i)).DisplayAllDetails();
+      }
+      if (EmployeeList.get(i) instanceof BasePlusCommissionEmployee){
+        ((BasePlusCommissionEmployee)EmployeeList.get(i)).DisplayAllDetails();
       }
     }
   }
