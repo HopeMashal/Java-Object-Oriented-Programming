@@ -23,3 +23,4 @@ Java Basic Notes and Some Apps Using Object Oriented Programming
 
 * Employee [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Apps/Employee/App.java)
 * Library [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Apps/LibraryTask/Library.java)
+* Employee Class [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Apps/EmployeeClass/EmployeeClass.java)
