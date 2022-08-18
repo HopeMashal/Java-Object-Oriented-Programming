@@ -27,3 +27,5 @@ Java Basic Notes and Some Apps Using Object Oriented Programming
 * Compare Between Array and ArrayList
   * Array [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Apps/ComparebetweenArrayAndArrayList/Array/array.java)
   * ArrayList [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Apps/ComparebetweenArrayAndArrayList/ArrayList/arrayList.java)
+* ArrayList with Sorting [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Apps/ArrayListWithSorting/ArrayListWithSorting.java)
+* Read and Write File [GO](https://github.com/HopeMashal/Java-Object-Oriented-Programming/blob/master/Apps/FileWriteRead/FileWriteRead.java)
