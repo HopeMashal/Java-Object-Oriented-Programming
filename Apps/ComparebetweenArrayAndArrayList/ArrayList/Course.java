@@ -13,23 +13,23 @@ public class Course {
 
     public void removeTopic (int myIndex){
         try {
-            System.out.println("We remove the topic in index no. "+(myIndex+1)+" with name: "+topics.get(myIndex).getName());
+            System.out.println("\nWe remove the topic in index no. "+(myIndex+1)+" with name: "+topics.get(myIndex).getName());
             topics.remove(myIndex);
-            System.out.println("Topic Deleted! :)");
+            System.out.println("Topic Deleted! :)\n");
         } catch (Exception e) {
             //TODO: handle exception
-            System.out.println("The index no. "+(myIndex+1)+" is Invalid!!");
+            System.out.println("\nThe index no. "+(myIndex+1)+" is Invalid!!\n");
         }
     }
 
     public void getNumOfDefinedTopics(){
-        if(topics.size()==1) System.out.println("There is "+topics.size()+" Topic in our Course");
-        else System.out.println("There are "+topics.size()+" Topics in our Course");
+        if(topics.size()==1) System.out.println("\nThere is "+topics.size()+" Topic in our Course\n");
+        else System.out.println("\nThere are "+topics.size()+" Topics in our Course\n");
     }
 
     //with integer i
     public  void  printCourse (){
-        System.out.println("All the topics we have until now");
+        System.out.println("\nAll the topics we have until now\n");
         for(int i=0;i<topics.size();i++){
             System.out.println("Topic name " +topics.get(i).getName() +" with ID number: "+topics.get(i).getID());
         }
@@ -37,7 +37,7 @@ public class Course {
 
     // with an arraylist
     public  void  printCourse1 (){
-        System.out.println("All the topics we have until now");
+        System.out.println("\nAll the topics we have until now\n");
         for(Topic mySearchTopic : topics){
             System.out.println("Topic name " +mySearchTopic.getName()+" with ID number: "+mySearchTopic.getID());
         }
@@ -45,11 +45,11 @@ public class Course {
 
     public  void  printCourse (int place){
         try {
-            System.out.println("The topic we have in index number "+(place+1)+":");
-            System.out.println("Topic name " + topics.get(place).getName()+" with ID number: "+topics.get(place).getID());
+            System.out.println("\nThe topic we have in index number "+(place+1)+":");
+            System.out.println("Topic name " + topics.get(place).getName()+" with ID number: "+topics.get(place).getID()+"\n");
         } catch (Exception e) {
             //TODO: handle exception
-            System.out.println("The index no. "+(place+1)+" is Invalid!!");
+            System.out.println("The index no. "+(place+1)+" is Invalid!!\n");
         }
     }
 }

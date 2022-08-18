@@ -33,11 +33,17 @@ public class arrayList {
         automation.removeTopic(2);
         System.out.println("-----------------------------------------------------------------------------------------");
 
+        automation.removeTopic(8);
+        System.out.println("-----------------------------------------------------------------------------------------");
+
         automation.printCourse1();
         automation.getNumOfDefinedTopics();
         System.out.println("-----------------------------------------------------------------------------------------");
 
         automation.printCourse(2);
+        System.out.println("-----------------------------------------------------------------------------------------");
+
+        automation.printCourse(7);
         System.out.println("-----------------------------------------------------------------------------------------");
 
     }

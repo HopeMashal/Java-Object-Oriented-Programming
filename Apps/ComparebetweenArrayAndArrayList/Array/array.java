@@ -33,6 +33,9 @@ public class array {
         automation.removeTopic(1);
         System.out.println("-----------------------------------------------------------------------------------------");
 
+        automation.removeTopic(8);
+        System.out.println("-----------------------------------------------------------------------------------------");
+
         automation.printCourse();
         automation.getNumOfDefinedTopics();
         System.out.println("-----------------------------------------------------------------------------------------");
