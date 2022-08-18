@@ -1,7 +1,7 @@
 /*_______________________________*/
 //! Storage Class!! 
 
-package Apps.LibraryTask;
+package LibraryTask;
 
 public class Storage {
   private static Book[] books;

@@ -1,4 +1,4 @@
-package Apps.EmployeeClass;
+package EmployeeClass;
 
 import java.util.ArrayList;
 

@@ -1,7 +1,7 @@
 /*_______________________________*/
 //! Book Class!! 
 
-package Apps.LibraryTask;
+package LibraryTask;
 
 public class Book {
   private int Book_ID;

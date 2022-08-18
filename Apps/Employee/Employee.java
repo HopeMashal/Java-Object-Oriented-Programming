@@ -1,7 +1,7 @@
 /*_______________________________*/
 //! Employee Class!! 
 
-package Apps.Employee;
+package Employee;
 
 public class Employee {
   int Emp_id;

@@ -1,7 +1,7 @@
 /*_______________________________*/
 //! Commission Employee Class!!
 
-package Apps.EmployeeClass;
+package EmployeeClass;
 
 public class CommissionEmployee extends Employee implements Displayable {
   private double GrossSales, CommissionRate;

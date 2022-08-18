@@ -1,7 +1,7 @@
 /*_______________________________*/
 //! Best Seller Class!! 
 
-package Apps.LibraryTask;
+package LibraryTask;
 
 public class BestSeller extends Book {
   private String Book_Summary;

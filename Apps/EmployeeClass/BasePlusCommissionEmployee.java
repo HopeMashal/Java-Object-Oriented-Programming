@@ -1,7 +1,7 @@
 /*_______________________________*/
 //! Base Plus Commission Employee Class!!
 
-package Apps.EmployeeClass;
+package EmployeeClass;
 
 public class BasePlusCommissionEmployee extends CommissionEmployee{
   private double Base;

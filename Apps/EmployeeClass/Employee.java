@@ -1,7 +1,7 @@
 /*_______________________________*/
 //! Employee Class!!
 
-package Apps.EmployeeClass;
+package EmployeeClass;
 
 enum GENDER{Male,Female};
 public abstract class Employee {

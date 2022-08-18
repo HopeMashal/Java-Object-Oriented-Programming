@@ -1,7 +1,7 @@
 /*_______________________________*/
 //! Library Class!! 
 
-package Apps.LibraryTask;
+package LibraryTask;
 
 public class Library {
   public static void main(String[] args) {

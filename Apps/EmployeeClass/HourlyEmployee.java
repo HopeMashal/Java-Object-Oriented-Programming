@@ -1,7 +1,7 @@
 /*_______________________________*/
 //! Hourly Employee Class!!
 
-package Apps.EmployeeClass;
+package EmployeeClass;
 
 public class HourlyEmployee extends Employee implements Displayable {
   private double HourRate;

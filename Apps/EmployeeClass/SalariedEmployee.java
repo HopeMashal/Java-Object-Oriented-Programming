@@ -1,7 +1,7 @@
 /*_______________________________*/
 //! Salaried Employee Class!!
 
-package Apps.EmployeeClass;
+package EmployeeClass;
 
 public class SalariedEmployee extends Employee implements Displayable {
   private double Salary,Bonus,Deductions;

@@ -1,4 +1,4 @@
-package Apps.EmployeeClass;
+package EmployeeClass;
 
 public interface Displayable {
   String CompanyName="Hope Company", Fax="02-321-4321";
