@@ -24,37 +24,45 @@ public class Library {
     myStock.addBook(best_3, 4);
     myStock.addBook(best_2, 3);
 
+    System.out.println("\n------------------------All Book Class elements------------------------");
+    book_1.PrintInfo();
+    book_2.PrintInfo();
+    book_3.PrintInfo();
+    book_4.PrintInfo();
+
+    System.out.println("\n------------------------All Best Seller Class elements------------------------");
     best_1.PrintInfo();
     best_2.PrintInfo();
     best_3.PrintInfo();
-    System.out.println("******************");
+    
+    System.out.println("\n------------------------All Best Seller Class elements Details------------------------");
     System.out.println(best_1.getInfo());
     System.out.println(best_2.getInfo());
     System.out.println(best_3.getInfo());
-    System.out.println("******************");
-
+    
+    System.out.println("\n------------------------All elements in Storage------------------------");
     myStock.printStock();
-    System.out.println("******************");
 
+    System.out.println("\n------------------------Rent Books------------------------");
     System.out.println(myStock.rentBook(book_1));
     System.out.println(myStock.rentBook(best_1));
     System.out.println(myStock.rentBook(best_1));
     System.out.println(myStock.rentBook(best_1));
     System.out.println(myStock.rentBook(book_4));
-    System.out.println("******************");
 
-    System.out.println(book_1.getBook_Name()+", the number of copies available now is "+ myStock.getInStock(book_1));
-    System.out.println(best_1.getBook_Name()+", the number of copies available now is "+ myStock.getInStock(best_1));
-    System.out.println(best_2.getBook_Name()+", the number of copies available now is "+ myStock.getInStock(best_2));
-    System.out.println("******************");
+    System.out.println("\n------------------------Books in Stock------------------------");
+    myStock.getInStock(book_1);
+    myStock.getInStock(best_1);
+    myStock.getInStock(best_2);
 
+    System.out.println("\n------------------------All elements in Storage------------------------");
     myStock.printStock();
-    System.out.println("******************");
 
+    System.out.println("\n------------------------Return Book------------------------");
     myStock.returnBook(book_1);
 
+    System.out.println("\n------------------------All elements in Storage------------------------");
     myStock.printStock();
-    System.out.println("******************");
 
   }
 }

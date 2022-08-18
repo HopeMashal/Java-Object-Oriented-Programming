@@ -22,7 +22,7 @@ public class BestSeller extends Book {
   public String getInfo(){
     String name = super.getBook_Name();
     double price = super.getBook_Price();
-    String info = "Best Seller: "+name+" - "+price+"$. Summary: "+Book_Summary+" , "+Book_WorldCopies+" Copies Sold!";
+    String info = "\nBest Seller: "+name+" - "+price+"$. Summary: "+Book_Summary+", "+Book_WorldCopies+" Copies Sold!";
     return info;
   }
 

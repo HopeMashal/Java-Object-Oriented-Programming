@@ -21,7 +21,7 @@ public class Book {
 	}
 
   public void PrintInfo(){
-    System.out.println("The book's ID number is "+Book_ID+". The name of the book is "+Book_Name+". The price of the book is "+Book_Price+"$.");
+    System.out.println("\nThe book's ID number is "+Book_ID+". The name of the book is "+Book_Name+". The price of the book is "+Book_Price+"$.");
   }
 
   public int getBook_ID() {

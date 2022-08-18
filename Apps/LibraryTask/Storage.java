@@ -16,7 +16,7 @@ public class Storage {
 
   public void printStock(){
     for(int i=0;i<Storage_ID;i++){
-      System.out.println(books[i].getBook_Name()+" , the number of copies available is "+inStock[i]+".");
+      System.out.println("\n"+books[i].getBook_Name()+", the number of copies available is "+inStock[i]+".");
     }
   }
 
@@ -32,7 +32,7 @@ public class Storage {
         }
     } catch (Exception e) {
       //TODO: handle exception
-      System.out.println("Storage is already FULL!!!!!!");
+      System.out.println("\nStorage is already FULL!!!!!!");
     }
   }
 
@@ -40,26 +40,32 @@ public class Storage {
     int index = search(books, book);
     String Msg;
     if(index != -1){
-      if(inStock[index] == 0) Msg= "ERROR!! There are no copies of this book!! "+book.getBook_Name();
+      if(inStock[index] == 0) Msg= "\nERROR!! There are no copies of this book!! "+book.getBook_Name()+"!!!!!!!!!";
       else {
         inStock[index] -=1;
-        Msg = book.getBook_Name()+", the number of copies available now is "+inStock[index];
+        Msg = "\n"+book.getBook_Name()+", the number of copies available now is "+inStock[index]+".";
       }
-    } else Msg = "ERROR!! The book name entered is invalid!! "+book.getBook_Name();
+    } else Msg = "\nERROR!! The book name entered is invalid!! "+book.getBook_Name()+"!!!!!!!!!";
     return Msg;
   }
 
   public void returnBook(Book book){
     int index = search(books, book);
-    if(index != -1) inStock[index] +=1; 
-    else System.out.println("ERROR!! The book name entered is invalid!! "+book.getBook_Name());
+    if(index != -1){ 
+      inStock[index] +=1;
+      System.out.println("\n"+book.getBook_Name()+", the number of copies available now is "+inStock[index]+".");
+    } 
+    else System.out.println("\nERROR!! The book name entered is invalid!! "+book.getBook_Name()+"!!!!!!!!!");
   }
 
   public int getInStock(Book book){
     int index = search(books, book);
-    if(index != -1) return inStock[index]; 
+    if(index != -1){ 
+      System.out.println("\n"+book.getBook_Name()+", the number of copies available now is "+inStock[index]+".");
+      return inStock[index];
+    }
     else { 
-      System.out.println("ERROR!! The book name entered is invalid!! "+book.getBook_Name());
+      System.out.println("\nERROR!! The book name entered is invalid!! "+book.getBook_Name()+"!!!!!!!!!");
       return -1;
     }
   }
