@@ -16,6 +16,10 @@ public class lesson_4 {
     System.out.println(sum);
     System.out.println(sub);
     System.out.println(mult);
+    System.out.println(car_1.getCarMarker());
+    System.out.println(car_2.getCarModel());
+    System.out.println(car_3.getCarMarker());
+    System.out.println(car_4.getCarModel());
   }
 }
 
