@@ -10,6 +10,7 @@ import com.opencsv.CSVWriter;
 
 public class WriteCSV {
 	List<String[]> arrayList;
+	File file;
 
 	public WriteCSV(List<String[]> arrayList) {
 		this.arrayList = arrayList;
@@ -19,8 +20,7 @@ public class WriteCSV {
 		File folder = new File("./Apps/CSVWriteRead/src/files");
 		folder.mkdir();
 
-		File file = new File("./Apps/CSVWriteRead/src/files/test.csv");
-		String filePath = file.getPath();
+		String filePath = this.file.getPath();
 
 		Writer writer = null;
 		try {
@@ -35,5 +35,9 @@ public class WriteCSV {
 			e.printStackTrace();
 		}
 		return filePath;
+	}
+
+	public void createFile(String fileName) {
+		this.file = new File("./Apps/CSVWriteRead/src/files/" + fileName+".csv");
 	}
 }

@@ -25,6 +25,5 @@ public class Driver {
 			System.out.println(response.asPrettyString());
 		}
 
-		return;
 	}
 }

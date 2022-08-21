@@ -11,7 +11,8 @@ public class MainCSV {
     arrayList.add(new String[] {"Hope"});
     arrayList.add(new String[] {"Yuki"});
 
-		WriteCSV writer = new WriteCSV(arrayList);
+    WriteCSV writer = new WriteCSV(arrayList);
+		writer.createFile("test");	
 		System.out.println(writer.writeToCsv());
 
     ReadCSV reader = new ReadCSV(writer.writeToCsv());
