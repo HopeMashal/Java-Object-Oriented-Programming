@@ -1,3 +1,4 @@
+"Routes","Status"
 "/posts","200"
 "/posts/1","200"
 "/posts/102","404"

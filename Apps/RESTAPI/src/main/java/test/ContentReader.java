@@ -14,6 +14,7 @@ public class ContentReader {
       try {
         FileReader filereader = new FileReader(file);
         CSVReader csvReader = new CSVReaderBuilder(filereader)
+                                  .withSkipLines(1)
                                   .build();
         List<String[]> allData = csvReader.readAll();
         ArrayList<String> myList;
